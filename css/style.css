@@ -7,7 +7,24 @@
   font-size: 90px;
   display: block;
 }
+.wishText{
+  color: #fff;
+  
+}
+.loading span {
+  transform: translateY(20px);
+  animation: bounce 0.3s ease infinite alternate;
+}
 
+@keyframes bounce {
+  to {
+      transform: translateY(-20px);
+  }
+}
+body{
+  height: 100vh;
+  width: 100vw;
+}
 h1, h2, span {
   display: none;
 }
